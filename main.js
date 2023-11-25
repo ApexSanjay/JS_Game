@@ -129,7 +129,7 @@ class EvilCircle extends Shape{
    }
 
    if ((this.y + this.size) >= height) {
-      this.y -= this.size;
+      this.y += this.size;
    }
 
    if ((this.y - this.size) <= 0) {
